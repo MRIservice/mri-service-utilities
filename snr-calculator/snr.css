@@ -1,0 +1,50 @@
+	body {
+                background-color:#03647e;
+                 }
+	
+	.container {
+  		height: 500px;
+  		width: 380px;
+  		border-radius: 10px;
+  		border: solid black;
+  		background-color:gray;
+  		margin:auto;
+  		pading: 20px;
+  		box-shadow:         3px 3px 5px 6px #ccc;
+		}
+
+	.display {
+  		opacity: .5;
+  		border: solid black;
+  		background-color:white;
+  		margin:auto;
+  		height:40px;
+  		width: 200px;
+  		display:flex;
+		}
+
+	button {
+  		border: solid black;
+  		height:40px; 
+  		margin: 15px;
+		}
+
+
+	h3 {
+  		text-align:center;
+		}
+
+	h1 {
+  		text-align:center;
+		}
+
+	.blue {
+  		color:blue;
+		}
+	.red {
+  		color:red;
+		}
+
+	.green {
+  		color:green;
+		}

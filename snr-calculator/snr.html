@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="snr.css">
+	   
+  </head>
+  <body>
+
+	<div class="container">
+  		<h3>MRI SNR CALCULATOR</h3>
+  		<h3> Mean</h3>
+  			<input placeholder="Enter Mean Value" class="display" id="signal">
+  			<br>
+  
+  		<h3> Standard Deviation</h3>
+  			<input placeholder="Enter Standard Deviation Value" class="display" id="noise"></input>
+
+  			<br>
+  
+  			<button onclick="snr(.5)">0.5 nex</button>
+  			<button onclick="snr(1)">1 nex</button>
+  			<button onclick="snr(2)">2 nex</button>
+  			<button onclick="snr(4)">4 nex</button>
+
+  			<br>
+  			<br>
+
+			<h3>SNR</h3>
+  			<h1 id="snr"></h1>
+	</div>
+
+
+  </body>
+ <script src="snr.js"></script>
+</html>
