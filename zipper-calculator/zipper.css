@@ -1,0 +1,41 @@
+	.container {
+  		height: 500px;
+  		width: 380px;
+  		border-radius: 10px;
+  		border: solid black;
+  		background-color: #03647e;
+  		margin: auto;
+  		pading: 20px;
+  		box-shadow: 3px 3px 5px 6px #ccc;
+		}
+
+	.display {
+  		opacity: .5;
+  		border: solid black;
+  		background-color: white;
+  		margin-left: auto;
+  		margin-right: auto;
+  		margin-bottom: 10px;
+  		height: 30px;
+  		width: 100px;
+  		display: flex;
+  		text-align:center;
+  		align-items: center;
+  		justify-content: flex-end;
+		}
+
+	button {
+  		border: solid black;
+  		height: 40px; 
+  		margin-left: 12px;
+		}
+
+	h2 {
+  		text-align: center;
+  		font-size: 15px;
+		}
+
+	.red {
+  		font-size: 20px;
+  		color: red;
+  		}

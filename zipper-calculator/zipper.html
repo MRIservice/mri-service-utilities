@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Zipper Frequency</title>
+    <link rel="stylesheet" href="zipper.css">
+	   
+  </head>
+  <body>
+
+
+	<div class="container" >
+  		<h2>MRI Zipper Frequency Calculator</h2>
+        	<br>
+  
+  		<h2>Center Frequency (MHZ)</h2>
+  			<input type="number" placeholder="63876543" class="display" id="cf">
+  		<br>
+  		<br>
+  
+  		<h2>Field of View (cm)</h2>
+  			<input type="number" placeholder="10 20 40" class="display" id="fov">
+  		<br>
+  
+  		<h2>Zipper Location (mm)</h2>
+  			<input type="number" placeholder="123" class="display" id="position">
+  
+  			<button onclick="lip()">Left, Inferior, Posterior</button>
+  			<button onclick="sar()">Right, Superior, Anterior</button>
+    		<br>
+    		<br>
+    		<h2 class="red" id="zipper"></h2>
+	</div>
+
+
+</body>
+ <script src="zipper.js"></script>
+</html>
