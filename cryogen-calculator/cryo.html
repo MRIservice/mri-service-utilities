@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Cryo Calculator</title>
+    <link rel="stylesheet" href="cryo.css">
+	   
+  </head>
+  <body>
+
+	<div class="container">
+  		<h1 class="white">Cryogen Calculator</h1>
+  		<h2>Previous LHe Level %</h>
+  			<input placeholder="99.9" type= "number" class="display" id="previousLhe">
+  
+  		<h2>Previous LHe Reading Date</h>
+  			<input type="date" name="Date" class="display" id="previousDate"/>
+  
+  		<h2>Current LHe Level %</h>
+  			<input placeholder="89.9" type= "number" class="display" id="currentLhe">
+  
+  		<h2>Desired Fill Point %</h>
+  			<input placeholder="69.9" type= "number" class="display" id="fillPoint">
+  
+  		<h2 class="green">Daily Boil-off Rate</h2>
+  		<h2 class="green" id="boilRate"></h2> 
+  
+  		<h2 class="white"> Scheduled Fill Date</h2>
+  		<h2 class="white" id="nextFill"></h2> 
+  		<br>
+  			<button onclick="cryoCalc()">Calculate</button>  
+	</div>
+
+  </body>
+ <script src="cryo.js"></script>
+</html>
