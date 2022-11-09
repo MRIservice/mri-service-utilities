@@ -1,0 +1,7 @@
+###To start Express Server##
+
+npm run
+
+> node index.js
+
+localhost:3000
